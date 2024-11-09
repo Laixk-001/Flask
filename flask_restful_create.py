@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+"""
+文件描述：
+    使用python第三方模块flask-restful快速完成Restful风格的API开发
+"""
 from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
 

@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*- 
+"""
+文件描述：
+    使用Flask框架实现RESTful风格的API，用于模拟数据库中persons表中的新增、修改、查询和删除操作
+"""
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
